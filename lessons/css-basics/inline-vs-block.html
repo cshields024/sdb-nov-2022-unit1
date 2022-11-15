@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline vs Block Examples</title>
+  <link rel="stylesheet" href="inline-vs-block.css">
+</head>
+<body>
+  <section>
+    <!-- block elements -->
+    <h2>Block Elements</h2>
+    <!-- if you find yourself repeating code you need to make it a class! -->
+    <p class="outline-box">This is a paragraph block</p>
+    <ul>
+      <li>Block level elements always start a new line</li>
+      <li>It will take up the entire width of the parent</li>
+    </ul>
+  </section> 
+  <section>
+    <!-- inline elements -->
+    <hr>
+    <h2>Inline Elements</h2>
+    <ul>
+      <li>An inline element does not start a new line</li>
+      <li>An inline element only takes up as much width as necessary</li>
+    </ul>
+    <p>The very first President of the United States was <a href="#" class="outline-box">George Washington</a></p>
+    <h3>Common tags that are inline</h3>
+    <ul>
+      <li>span</li>
+      <li>strong</li>
+      <li>em</li>
+    </ul>
+  </section>  
+  <section>
+    <!-- inline block -->
+    <hr>
+    <h2>Inline Block</h2>
+    <div>
+      <a class="outline-box" href="#">Submit</a>
+      <a class="outline-box" href="#">Clear</a>
+    </div>
+    <a href="#">outside the DIV</a>
+  </section>
+</body>
+</html>
