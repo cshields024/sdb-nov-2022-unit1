@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-gap:
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper div {
+    background-color: #eee;
+    padding: 16px;
+    border: solid black;
+}
+
+.wrapper div:nth-child(odd) {
+    background-color: #ddd;
+} 
