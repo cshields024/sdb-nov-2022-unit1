@@ -12,12 +12,8 @@
     background-color: salmon;
 }
 
-.gallery-item-1 {
-    display: grid;
-    grid-template-columns: auto;
-    min-width: 400px;
-    width: 100%
-
+.main-image {
+    
 }
 
 /* .gallery {
