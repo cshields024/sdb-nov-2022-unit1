@@ -18,3 +18,19 @@ h1 {
     font-size: 200px;
     border-radius: 30%;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, auto);
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: lightyellow;
+    border: 1px solid lightcoral;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
